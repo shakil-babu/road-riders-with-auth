@@ -1,0 +1,87 @@
+
+.area{
+    width: 80%;
+    margin:30px auto;
+    font-family: 'montserrat',sans-serif;
+    display: flex;
+}
+.col-5{
+    width: 30%;
+    background-color: #EFEFEF;
+    padding: 15px;
+    border-radius: 5px;
+}
+.col-5 p{
+    font-size: 18px;
+    font-weight:bold;
+    margin: 0;
+}
+.pick-info input{
+    background-color: #fff;
+    padding: 10px;
+    font-weight: normal;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 93%;
+}
+.destination-name{
+    background-color:orangered;
+    padding: 10px;
+    font-weight: normal;
+    margin: 0;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: #fff;
+}
+.search-btn{
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    background:orangered;
+    padding: 8px;
+    color: #fff;
+    margin-top: 10px;
+}
+.search-btn:hover{
+    background: rgb(221, 67, 11);
+}
+
+.col-7{
+    width: 70%;
+    margin-left: 20px;
+}
+.vehicle-info{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    align-items: center;
+    background: #fff;
+    padding: 10px;
+}
+.vehicle-info p{
+    font-size: 14px;
+    font-weight: normal;
+    letter-spacing: 2.4px;
+}
+.vehicle-info img{
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width:768px){
+    .area{
+        display:initial ;
+    }
+    .col-5{
+        width: 100%;
+    }
+    .col-7{
+        width: 100%;
+    }
+}

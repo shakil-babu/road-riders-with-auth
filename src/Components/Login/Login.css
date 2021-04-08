@@ -1,0 +1,112 @@
+.login-area{
+    width: 40%;
+    margin: auto;
+
+    margin-top: 30px;
+    font-family: 'montserrat', sans-serif;
+    letter-spacing: 2.4px;
+}
+.login-area form{
+    border: 1px solid lightgray;
+    padding: 15px 30px;
+}
+.login-area h4{
+    font-size: 25px;
+    margin: 0;
+    padding: 0;
+}
+.login-area .input{
+    width: 95%;
+    margin-top: 15px;
+    padding: 10px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-size: 16px;
+    color: #000;
+}
+.flex{
+    display: flex;
+}
+.flex input{
+    outline: none;
+    cursor: pointer;
+}
+.display-flex{
+    width: 100%; 
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.submit-btn{
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border: none;
+    background:orangered;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 5px;
+    outline: none;
+
+}
+.info{
+    width: 80%;
+    margin:auto;
+    display: flex;
+    font-size: 13px;
+    align-items: center;
+}
+.info a{
+    margin-left: 5px;
+}
+
+.underline-flex{
+    display: flex;
+    align-items: center;
+}
+.underline{
+    width: 50%;
+    height: 1px;
+    background-color:lightgray;
+}
+.underline-flex p{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.icon-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid lightgray;
+    border-radius: 40px;
+    width: 70%;
+    margin: auto;
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
+}
+.icon-flex .icon{
+    font-size: 25px;
+}
+.icon-flex p{
+    letter-spacing: 2.4px;
+    font-family: 'montserrat', sans-serif;
+}
+.login-area .input:focus{
+    outline: none;
+}
+
+@media screen and (max-width:768px){
+    .login-area{
+        width: 90%;
+    }
+    .display-flex{
+        flex-direction: column;
+    }
+    .info{
+        flex-direction: column;
+    }
+}
